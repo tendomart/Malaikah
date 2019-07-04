@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+    Register Patient
+    </title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <header class="Top_header1">
+        <a>Malaikah Medical Center</a>
+    </header>
+    <header class="Top_header">
+        <a href="">
+                <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+           <g>
+               <g>
+                   <rect x="8" y="15.5" fill="#1D1D1B" width="21" height="1"/>
+               </g>
+               <g>
+                   <rect x="8" y="9.7" fill="#1D1D1B" width="21" height="1"/>
+               </g>
+               <g>
+                   <rect x="8" y="21.3" fill="#1D1D1B" width="21" height="1"/>
+               </g>
+           </g>
+          
+           </svg> 
+           
+        </a>
+        <a>Patient registration form</a>
+    </header>
+
+    <!-- <section class="main_section">
+        <div class="colm_left">
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">departments</a>
+                </li>
+                <li>
+                    <a href="">Recent visits</a>
+                </li>
+                <li>
+                    <a href="">Home care</a>
+                </li>
+            </ul>
+        </div>
+        <div class="colm_center">
+          
+            <form action="" class="patient_details">
+                    
+                    
+                    
+                    
+
+            </form>
+        </div>
+        <div class="colm_right">
+           
+        </div>
+    </section> -->
+    <form action="">
+        <section class="colm_section">
+            <div class="colm1">
+                    <a class="text">PATIENT DETAILS</a>
+                    <input type="text" placeholder="Patient ID" class="Textbox" required>
+                    <input type="text" placeholder="Patient Name" class="Textbox" required>
+                    <fieldset>
+                        <legend>
+                            Are you insured?
+                        </legend>
+                        <ul>
+                            <li>
+                                <input type="radio" required name="insurance" value="yes">
+                                <label for="">yes</label>
+                            </li>
+                            <li>
+                                <input type="radio" required name="insurance" value="no">
+                                <label for="">No</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                            <legend>
+                                Gender
+                            </legend>
+                            <ul>
+                                <li>
+                                    <input type="radio" required name="gender" value="female">
+                                    <label for="">Male</label>
+                                </li>
+                                <li>
+                                    <input type="radio" required name="gender" value="male">
+                                    <label for="">Female</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <fieldset>
+                                <legend>
+                                    Marital Status
+                                </legend>
+                                <ul>
+                                    <li>
+                                        <input type="radio" required name="marital_Status" value="married">
+                                        <label for="">Married</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" required name="marital_Status" value="single">
+                                        <label for="">Single</label>
+                                    </li>
+                                </ul>
+                        </fieldset>
+                        
+                        
+            </div>
+            <div class="colm2">
+                    <a class="text">PATIENT DETAILS</a>
+                    <input type="text" placeholder="Age" class="Textbox class="Textbox"" required>
+                    <input type="text" placeholder="Occupation" class="Textbox" required>
+                    <input type="text" placeholder="Religion" class="Textbox" required>
+                    <fieldset>
+                            <legend>
+                                To visit Which?
+                            </legend>
+                            <ul>
+                                <li>
+                                    <input type="radio" required name="visit_Which" value="Doctor">
+                                    <label for="">Doctor</label>
+                                </li>
+                                <li>
+                                    <input type="radio" required name="visit_Which" value="nurse">
+                                    <label for="">Nurse</label>
+                                </li>
+                            </ul>
+                    </fieldset>
+                    <input type="text" placeholder="Doctor/Department" class="Textbox" required>
+                    <input type="text" placeholder="Reffered By Doctor" class="Textbox" required>
+            </div>
+        </section>
+        <section class="colm_section">
+                <div class="colm1">
+                        <input type="text" placeholder="Language" class="Textbox" required>
+                        <input type="text" placeholder="Permanent Address & Pincode" class="Textbox" required>
+                        <input type="text" placeholder="Contact Telephone" class="Textbox" required>
+                        <input type="text" placeholder="Mobile" class="Textbox" required>
+                        <input type="email" placeholder="Email" class="Textbox" required>
+                        <fieldset>
+                                <legend>
+                                    To visit Which?
+                                </legend>
+                                <ul>
+                                    <li>
+                                        <input type="radio" required name="visit_Which" value="Doctor">
+                                        <label for="">Doctor</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" required name="visit_Which" value="nurse">
+                                        <label for="">Nurse</label>
+                                    </li>
+                                </ul>
+                        </fieldset>
+                        
+                </div>
+                <div class="colm2">
+                       
+                            <input type="text" placeholder="Signature Right" class="Textbox" required>
+                            <input type="text" placeholder="Relationship with the Patient" class="Textbox" required>
+                            <input type="date" placeholder="Date" class="Textbox" required>
+                            <input type="text" placeholder="Time" class="Textbox" required>
+                            <input type="text" placeholder="Enter the code given here" class="Textbox" required>
+                            
+                </div>
+        </section>
+        <section class="colm_section">
+                <button class="submit">
+                        Submit
+                    </button>
+                    <button type="reset" class="reset">
+                        Reset
+                    </button>5
+        </section>
+    </form>
+</body>
+</html>

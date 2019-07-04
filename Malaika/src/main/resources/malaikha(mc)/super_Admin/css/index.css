@@ -1,0 +1,225 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: segoe ui light;
+}
+.main_section{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    height: 100%;
+}
+.colm_left{
+    width: 50%;
+    background: grey;
+}
+.inner_container{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+    color: white;
+    font-size: 40px;
+    font-family: segoe ui light;
+}
+.inner_container2{
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 90px;
+  
+}
+
+.Heading{
+   font-size: 30px;
+    padding: 10px 40px;
+    border-bottom:3px solid rgb(36, 31, 31);
+}
+.form{
+    padding: 20px;
+}
+.form input,button,li{
+    display: block;
+    margin: 20px;
+}
+input{
+    padding: 20px;
+    width: 300px;
+    border: 0px;
+    border-bottom: 3px solid rgb(36, 31, 31);
+    outline: none;
+}
+button{
+    outline: none;
+    color: white;
+    background: rgb(36, 31, 31);
+    width: 350px;
+    border-radius: 8px;
+    padding: 10px;
+    border: 0px;
+    
+}
+.bottom_links a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(36, 31, 31);
+}
+svg{
+    width: 40px;
+}
+.top_header{
+    display: none;
+}
+
+@media(width:360px){
+    .main_section{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        
+    }
+    .colm_left{
+        width: 100%;
+        background: rgb(36, 31, 31);
+        padding: 1px;
+    }
+
+    .inner_container{
+       padding: 10px;
+       margin: unset;
+       height: 20%;
+        color: white;
+        font-size: 20px;
+        font-family: segoe ui light;
+    }
+    .colm_right{
+        width: 100%;
+    }
+    .inner_container2{
+       margin:unset;
+       margin-top:30px;
+      
+    }
+    
+    .Heading{
+       font-size: 30px;
+        padding: 10px 40px;
+        border-bottom:unset;
+      
+    }
+    .form{
+        padding: 20px;
+    }
+    .form input,li{
+        display: block;
+        margin: 20px;
+    }
+    input{
+        padding: 20px;
+        width: 200px;
+        border: 0px;
+        border-bottom: 3px solid rgb(36, 31, 31);
+        outline: none;
+    }
+    button{
+        outline: none;
+        color: white;
+        background: grey;
+        width: 200px;
+        border-radius: 20px;
+        padding: 10px;
+        border: 0px;
+        margin-left: 40px;
+        
+    }
+    svg{
+        width: 20px;
+    }
+    .bottom_links a{
+        text-decoration: none;
+        font-weight: 600;
+        color: rgb(36, 31, 31);
+    }
+    .top_header{
+        display: block;
+        background: rgb(36, 31, 31);
+        padding: 1px;
+        width: 100%;
+    }
+    
+}
+
+@media(width:600px){
+    .main_section{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        
+    }
+    .colm_left{
+        width: 100%;
+        background: rgb(36, 31, 31);
+        padding: 1px;
+    }
+
+    .inner_container{
+       padding: 10px;
+       margin: unset;
+       height: 20%;
+        color: white;
+        font-size: 20px;
+        font-family: segoe ui light;
+    }
+    .colm_right{
+        width: 100%;
+    }
+    .inner_container2{
+       margin:unset;
+       margin-top:30px;
+      
+    }
+    
+    .Heading{
+       font-size: 30px;
+        padding: 10px 40px;
+        border-bottom:unset;
+      
+    }
+    .form{
+        padding: 20px;
+    }
+    .form input,li{
+        display: block;
+        margin: 20px;
+    }
+    input{
+        padding: 20px;
+        width: 200px;
+        border: 0px;
+        border-bottom: 3px solid rgb(36, 31, 31);
+        outline: none;
+    }
+    button{
+        outline: none;
+        color: white;
+        background: rgb(36, 31, 31);
+        width: 200px;
+        border-radius: 20px;
+        padding: 10px;
+        border: 0px;
+        margin-left: 40px;
+        
+    }
+    svg{
+        width: 20px;
+    }
+    .bottom_links a{
+        text-decoration: none;
+        font-weight: 600;
+        color: rgb(36, 31, 31);
+    }
+    .top_header{
+        display: block;
+        background: rgb(36, 31, 31);
+        padding: 1px;
+        width: 100%;
+    }
+    
+}
