@@ -25,6 +25,8 @@ html, body{
     display: -webkit-box;
     -webkit-box-orient:horizontal;
     -webkit-box-pack: center;
+    overflow-x: hidden;
+   
    
   
    
@@ -33,7 +35,8 @@ html, body{
 
 .colm1{
     
-   
+  
+  width: 250px;
   
     
    
@@ -47,7 +50,8 @@ html, body{
 .colm2{
 
     /* background: green; */
-   
+  
+    width: 250px;
     
 }
 .colm_right{
@@ -68,11 +72,11 @@ svg{
     outline: none;
 }
 .Textbox{
-    margin: 20px;
-    width: 200px;
+    margin: 40px;
+    width: 180px;
     outline:none;
     display: block;
-    padding: 15px;
+    padding: 9px;
     border: 2px solid grey;
     border-radius: 5px;
 }
@@ -84,9 +88,11 @@ button{
     margin-left: 20px;
 }
 fieldset{
-    width:200px;
+    width:180px;
+    height: 40px;
     margin-left: 18px; 
     border-radius: 5px;
+    margin: 40px;
 }
 .submit{
     background: grey;
@@ -97,8 +103,14 @@ fieldset{
     border: 0px;
     outline: none;
 }
-.reset{
+.submit:hover{
     background: green;
+}
+.container{
+    text-align: center;
+}
+.reset{
+    background:#241f1f;
     color: white;
     width: 200px;
     padding: 10px;
@@ -113,12 +125,11 @@ li{
     list-style: none;
 }
 table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 10px;
+   
+    padding: 1px;
 }
-table{
-    width: 100%;
+td{
+    
 }
 .th{
     background: #241f1f;
